@@ -1,0 +1,27 @@
+name: Generic Issue
+description: Use this issue if no other was available.
+title: "[FIX|DOCS|FEAT]: Title..."
+labels: ["Status: Opened"]
+assignees:
+  - Mestre-Tramador
+body:
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Type
+      description: What this issue is about.
+      options:
+        - Bug Report
+        - Docs Revision
+        - Feature Request
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+      description: >
+        According to the selected type,
+        please concisely explain the error found.
+    validations:
+      required: true
