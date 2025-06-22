@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+*.md text diff=markdown linguist-language=Markdown linguist-detectable -linguist-documentation
+
+*.yml text linguist-language=YAML linguist-detectable
+
+*.svg binary -text
