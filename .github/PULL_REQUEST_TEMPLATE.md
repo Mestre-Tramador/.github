@@ -8,7 +8,8 @@ List here all the key changes you've contributed...
 
 ## Testing
 
-List the testing procedure to verify the correct workflow of the new (or fixed) behavior...
+List the testing procedure to verify the correct workflow of the new (or fixed)
+behavior...
 
 ## Additional Data
 

@@ -2,14 +2,32 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog][keep-a-changelog], and this project
-adheres to [Semantic Versioning][semantic-versioning].
+The format is based on [Keep a Changelog][keepachangelog], and this project
+adheres to [Semantic Versioning][semver].
 
 **Read it also in: [Español][es], [Português][pt]**
 
-## [Unreleased][u]
+## [Unreleased][tba]
 
-- ...
+- Complete workflow of GitHub Issue Templates
+- Better and commented Issue and PR Templates
+
+## [1.1.0][v1.1] - 2026-07-31
+
+### Added
+
+- Comments of Markdown language menus
+- Comments of Git files
+- Comments of EditorConfig
+
+### Updated
+
+- Code of Conduct version
+
+### Fixed
+
+- Lines exceeding max length on Markdown files
+- Reference links in other languages
 
 ## [1.0.0][v1] - 2025-06-22
 
@@ -23,9 +41,10 @@ adheres to [Semantic Versioning][semantic-versioning].
 - Default (generic) Pull Request Template files
 - Default (generic) Issue Template files
 
-[keep-a-changelog]: https://keepachangelog.com/en/1.1.0/
-[semantic-versioning]: https://semver.org/spec/v2.0.0-rc.2.html
+[keepachangelog]: https://keepachangelog.com/en/1.1.0/
+[semver]: https://semver.org/spec/v2.0.0.html
 [es]: ./CHANGELOG.ES.md
 [pt]: ./CHANGELOG.PT.md
-[u]: https://github.com/Mestre-Tramador/.github/compare/v1.0.0...HEAD
+[tba]: https://github.com/Mestre-Tramador/.github/compare/v1.1.0...HEAD
+[v1.1]: https://github.com/Mestre-Tramador/.github/compare/v1.0.0...v1.1.0
 [v1]: https://github.com/Mestre-Tramador/.github/releases/tag/v1.0.0

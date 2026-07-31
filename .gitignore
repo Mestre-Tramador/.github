@@ -1,1 +1,6 @@
+###################################
+# VSCode folder is ignored due to #
+# only being present for metadata #
+# and IDE sugar.                  #
+###################################
 .vscode/

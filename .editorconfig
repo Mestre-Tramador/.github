@@ -1,5 +1,13 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+#########################################
+# There is only this EditorConfig file. #
+#########################################
 root = true
 
+##################################
+# Optimized to UNIX-like systems #
+##################################
 [*]
 indent_style = space
 indent_size = 2
@@ -8,5 +16,10 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.md]
-trim_trailing_whitespace = false
+##################################################
+# The most recent version of the Code of Conduct #
+# favors this indentation with 3 spaces due to   #
+# nested lists, specially the ordered ones.      #
+##################################################
+[CODE_OF_CONDUCT.E[NS].md]
+indent_size = 3

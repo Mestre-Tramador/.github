@@ -1,7 +1,39 @@
+########################################
+# The default normalization for text   #
+# and the LF end of line, as per usual #
+# on UNIX-like systems.                #
+########################################
 * text=auto eol=lf
 
+######################################################################
+# Markdown is selected as the main language of this repository,      #
+# so it must be detectable and not considered part of documentation, #
+# additionally having its own diff for Git.                          #
+######################################################################
 *.md text diff=markdown linguist-language=Markdown linguist-detectable -linguist-documentation
 
+####################################################################
+# YAML is also used as language of this repository due to GitHub   #
+# usage of files in this language for workflows and other markups. #
+####################################################################
 *.yml text linguist-language=YAML linguist-detectable
 
+################################################
+# Since these SVGs aren't for source code use, #
+# they're rendered as binary to ease the load. #
+################################################
 *.svg binary -text
+
+#######################################################
+# Removes the vendor attribute of the .github/ folder #
+# in order to enable linguist detection of the files. #
+#######################################################
+.github/** -linguist-vendored
+
+############################################################
+# Even if Markdown is the main language of the repository, #
+# the files located in the docs/ folder should continue    #
+# to be considered documentation and not detectable.       #
+############################################################
+docs/*.md linguist-documentation -linguist-detectable
+docs/**/*.md linguist-documentation -linguist-detectable
