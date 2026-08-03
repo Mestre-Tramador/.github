@@ -12,6 +12,14 @@ adheres to [Semantic Versioning][semver].
 - Complete workflow of GitHub Issue Templates
 - Better and commented Issue and PR Templates
 
+## [1.1.1][v1.1-1] - 2026-08-03
+
+### Fixed
+
+- markdownlint config JSON rule ordering
+- Comments of EditorConfig
+- Attributes for Git
+
 ## [1.1.0][v1.1] - 2026-07-31
 
 ### Added
@@ -45,6 +53,7 @@ adheres to [Semantic Versioning][semver].
 [semver]: https://semver.org/spec/v2.0.0.html
 [es]: ./CHANGELOG.ES.md
 [pt]: ./CHANGELOG.PT.md
-[tba]: https://github.com/Mestre-Tramador/.github/compare/v1.1.0...HEAD
+[tba]: https://github.com/Mestre-Tramador/.github/compare/v1.1.1...HEAD
+[v1.1-1]: https://github.com/Mestre-Tramador/.github/compare/v1.1.0...v1.1.1
 [v1.1]: https://github.com/Mestre-Tramador/.github/compare/v1.0.0...v1.1.0
 [v1]: https://github.com/Mestre-Tramador/.github/releases/tag/v1.0.0

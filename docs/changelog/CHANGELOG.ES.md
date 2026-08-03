@@ -12,6 +12,14 @@ adhiere a [Semantic Versioning][semver].
 - Flujo de trabajo completo de las Plantillas de Issues de GitHub
 - Plantillas de Issues y PR mejoradas y comentadas
 
+## [1.1.1][v1.1-1] - 2026-08-03
+
+### Arreglado
+
+- Orden de las reglas en el JSON de la configuración de markdownlint
+- Comentarios en el archivo de EditorConfig
+- Atributos para Git
+
 ## [1.1.0][v1.1] - 2026-07-31
 
 ### Adicionado
@@ -45,6 +53,7 @@ adhiere a [Semantic Versioning][semver].
 [semver]: https://semver.org/lang/es/
 [en]: ./CHANGELOG.EN.md
 [pt]: ./CHANGELOG.PT.md
-[tba]: https://github.com/Mestre-Tramador/.github/compare/v1.1.0...HEAD
+[tba]: https://github.com/Mestre-Tramador/.github/compare/v1.1.1...HEAD
+[v1.1-1]: https://github.com/Mestre-Tramador/.github/compare/v1.1.0...v1.1.1
 [v1.1]: https://github.com/Mestre-Tramador/.github/compare/v1.0.0...v1.1.0
 [v1]: https://github.com/Mestre-Tramador/.github/releases/tag/v1.0.0

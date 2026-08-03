@@ -12,6 +12,14 @@ O formato é baseado em [Keep a Changelog][keepachangelog], e esse projeto adere
 - Fluxo de trabalho completo de templates de Issue do GitHub
 - Templates de Issue e PR aprimorados e comentados
 
+## [1.1.1][v1.1-1] - 2026-08-03
+
+### Corrigido
+
+- Ordem das regras no JSON de configuração do markdownlint
+- Comentários no arquivo do EditorConfig
+- Atributos para o Git
+
 ## [1.1.0][v1.1] - 2026-07-31
 
 ### Adicionado
@@ -45,6 +53,7 @@ O formato é baseado em [Keep a Changelog][keepachangelog], e esse projeto adere
 [semver]: https://semver.org/lang/pt-BR/spec/v2.0.0.html
 [en]: ./CHANGELOG.EN.md
 [es]: ./CHANGELOG.ES.md
-[tba]: https://github.com/Mestre-Tramador/.github/compare/v1.1.0...HEAD
+[tba]: https://github.com/Mestre-Tramador/.github/compare/v1.1.1...HEAD
+[v1.1-1]: https://github.com/Mestre-Tramador/.github/compare/v1.1.0...v1.1.1
 [v1.1]: https://github.com/Mestre-Tramador/.github/compare/v1.0.0...v1.1.0
 [v1]: https://github.com/Mestre-Tramador/.github/releases/tag/v1.0.0

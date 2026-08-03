@@ -10,19 +10,19 @@
 # so it must be detectable and not considered part of documentation, #
 # additionally having its own diff for Git.                          #
 ######################################################################
-*.md text diff=markdown linguist-language=Markdown linguist-detectable -linguist-documentation
+*.md diff=markdown linguist-detectable -linguist-documentation
 
 ####################################################################
 # YAML is also used as language of this repository due to GitHub   #
 # usage of files in this language for workflows and other markups. #
 ####################################################################
-*.yml text linguist-language=YAML linguist-detectable
+*.yml linguist-detectable
 
 ################################################
 # Since these SVGs aren't for source code use, #
 # they're rendered as binary to ease the load. #
 ################################################
-*.svg binary -text
+*.svg binary
 
 #######################################################
 # Removes the vendor attribute of the .github/ folder #

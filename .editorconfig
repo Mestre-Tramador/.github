@@ -1,13 +1,11 @@
-# EditorConfig is awesome: https://EditorConfig.org
-
 #########################################
 # There is only this EditorConfig file. #
 #########################################
 root = true
 
-##################################
-# Optimized to UNIX-like systems #
-##################################
+###################################
+# Optimized to UNIX-like systems. #
+###################################
 [*]
 indent_style = space
 indent_size = 2
