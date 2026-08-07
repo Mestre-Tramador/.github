@@ -9,8 +9,21 @@ adhiere a [Semantic Versioning][semver].
 
 ## [No Publicado][tba]
 
-- Flujo de trabajo completo de las Plantillas de Issues de GitHub
-- Plantillas de Issues y PR mejoradas y comentadas
+- GitHub Actions para la verificación de Issues
+- GitHub Actions para releases automáticas
+
+## [1.2.0][v1.2] - 2026-08-07
+
+### Adicionado
+
+- Plantilla de Issue para informe de bugs
+- Plantilla de Issue para revisión de documentación
+- Plantilla de Issue para solicitud de nuevas funcionalidades
+- Referencia de datos para labels de GitHub
+
+### Mejorado
+
+- Comentarios de cabezazo en algunos archivos Markdown
 
 ## [1.1.1][v1.1-1] - 2026-08-03
 
@@ -53,7 +66,8 @@ adhiere a [Semantic Versioning][semver].
 [semver]: https://semver.org/lang/es/
 [en]: ./CHANGELOG.EN.md
 [pt]: ./CHANGELOG.PT.md
-[tba]: https://github.com/Mestre-Tramador/.github/compare/v1.1.1...HEAD
+[tba]: https://github.com/Mestre-Tramador/.github/compare/v1.2.0...HEAD
+[v1.2]: https://github.com/Mestre-Tramador/.github/compare/v1.1.1...v1.2.0
 [v1.1-1]: https://github.com/Mestre-Tramador/.github/compare/v1.1.0...v1.1.1
 [v1.1]: https://github.com/Mestre-Tramador/.github/compare/v1.0.0...v1.1.0
 [v1]: https://github.com/Mestre-Tramador/.github/releases/tag/v1.0.0

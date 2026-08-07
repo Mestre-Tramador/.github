@@ -6,7 +6,7 @@
 <!-- Choose your language and start exploring this folder! -->
 <!-- ----------------------------------------------------- -->
 <p align="center">
-  <a href="https://github.com/Mestre-Tramador/.github/blob/main/CODE_OF_CONDUCT.EN.md">
+  <a href="https://github.com/Mestre-Tramador/.github/blob/main/data/README.EN.md">
     <img
       src="https://raw.githubusercontent.com/Mestre-Tramador/.github/refs/heads/main/assets/en.svg"
       alt="English"
@@ -22,7 +22,7 @@
 <!-- ¡Elige tu idioma y comienza a explorar esta carpeta! -->
 <!-- ---------------------------------------------------- -->
 <p align="center">
-  <a href="https://github.com/Mestre-Tramador/.github/blob/main/CODE_OF_CONDUCT.ES.md">
+  <a href="https://github.com/Mestre-Tramador/.github/blob/main/data/README.ES.md">
     <img
       src="https://raw.githubusercontent.com/Mestre-Tramador/.github/refs/heads/main/assets/es.svg"
       alt="Spanish"
@@ -38,7 +38,7 @@
 <!-- Escolha seu idioma e comece a explorar esta pasta! -->
 <!-- -------------------------------------------------- -->
 <p align="center">
-  <a href="https://github.com/Mestre-Tramador/.github/blob/main/CODE_OF_CONDUCT.PT.md">
+  <a href="https://github.com/Mestre-Tramador/.github/blob/main/data/README.PT.md">
     <img
       src="https://raw.githubusercontent.com/Mestre-Tramador/.github/refs/heads/main/assets/pt.svg"
       alt="Português"

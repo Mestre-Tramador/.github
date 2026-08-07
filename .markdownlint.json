@@ -2,5 +2,8 @@
   "MD024": {
     "siblings_only": true
   },
+  "MD041": {
+    "allow_preamble": true
+  },
   "default": true
 }

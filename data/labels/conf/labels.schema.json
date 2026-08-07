@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mestre-Tramador-GitHub-Labels",
+  "description": "This schema determines the rules for JSON|YAML|TOML parsing of the reference of the GitHub labels used by Mestre-Tramador.",
+  "type": "object",
+  "properties": {
+    "labels": {
+      "$ref": "#/$defs/labels"
+    }
+  },
+  "patternProperties": {
+    "^\\$schema$": {
+      "type": "string",
+      "format": "uri-reference",
+      "$comment": "This only is enabled so JSON files doesn't need to allow comments and can be straight up referenced to this schema."
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "labels"
+  ],
+  "$defs": {
+    "labels": {
+      "description": "The list of labels is composed solely of labels.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/label"
+      },
+      "$comment": "The uniqueness of the labels names must be checked programmatically."
+    },
+    "label": {
+      "description": "A GitHub label is mandatorily composed of a name and a color, with an additional description.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/labelName"
+        },
+        "color": {
+          "$ref": "#/$defs/labelColor"
+        },
+        "description": {
+          "$ref": "#/$defs/labelDescription"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "color"
+      ]
+    },
+    "labelName": {
+      "description": "Name of the label.",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50
+    },
+    "labelColor": {
+      "description": "Hexadecimal code of the label color.",
+      "type": "string",
+      "pattern": "^#[A-F0-9]{6}$"
+    },
+    "labelDescription": {
+      "description": "A helpful description of the meaning of this label.",
+      "type": "string"
+    }
+  }
+}

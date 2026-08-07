@@ -1,27 +1,62 @@
+#############################################################################
+#                               GENERIC ISSUE                               #
+#############################################################################
+# For fallbacks of very out of bounds errors and/or questions that can't    #
+# quite fit the existing forms, this template provides a more open approach #
+# to fill in the problem and therefore enter the usual workflow.            #
+#############################################################################
 name: Generic Issue
-description: Use this issue if no other was available.
-title: "[FIX|DOCS|FEAT]: Title..."
-labels: ["Status: Opened"]
+description: Use this if you prefer to write the problem all along or the other forms don't encapsulate your issue.
+title: '[MISC]: ...'
+labels:
+  - 'Type: Generic Issue'
+  - 'Status: Open'
 assignees:
   - Mestre-Tramador
 body:
-  - type: dropdown
-    id: issue_type
+  - type: markdown
     attributes:
-      label: Type
-      description: What this issue is about.
-      options:
-        - Bug Report
-        - Docs Revision
-        - Feature Request
+      value: |
+        **This is a generic issue, thus it doesn't have a dedicated set of fields allowing fine tuning!**
+
+        There is still a problem in this repository that needs to be addressed, and so it can be done by answering the following questions below:
+  - type: input
+    id: type
+    attributes:
+      label: What is likely the type of this issue?
+      description: What this issue is about, if giving it a type.
+      value: This issue ...
     validations:
       required: true
   - type: textarea
     id: issue
     attributes:
-      label: Issue
+      label: What is the problem?
       description: >
-        According to the selected type,
-        please concisely explain the error found.
+        According to the selected potential type,
+        please concisely explain the error found and
+        try to use Markdown accordingly.
+      value: |
+        Write the explanation here...
+
+        #### Additional Info
+
+        Write here any additional subtopics you might want, or just delete this section...
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        Remember that each of these fields is already at **heading level 3**, so you can follow from **heading level 4** and below when writing your problem.
+
+        ---
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      description: Please make a generic issue only if none equal was made and it fits your situation.
+      options:
+        - label: I confirm to have searched all existing issues, opened and closed, and not found any equal.
+          required: true
+        - label: I confirm that my issue can't be written in the other types of issue.
+          required: true

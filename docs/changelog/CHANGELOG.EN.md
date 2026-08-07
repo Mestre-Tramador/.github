@@ -9,8 +9,21 @@ adheres to [Semantic Versioning][semver].
 
 ## [Unreleased][tba]
 
-- Complete workflow of GitHub Issue Templates
-- Better and commented Issue and PR Templates
+- GitHub Actions for Issue verifications
+- GitHub Actions for automatic releases
+
+## [1.2.0][v1.2] - 2026-08-07
+
+### Added
+
+- Issue template for Bug Report
+- Issue template for Documentation Revision
+- Issue template for Feature Request
+- Data reference for GitHub labels
+
+### Improved
+
+- Preamble comments on some Markdown files
 
 ## [1.1.1][v1.1-1] - 2026-08-03
 
@@ -53,7 +66,8 @@ adheres to [Semantic Versioning][semver].
 [semver]: https://semver.org/spec/v2.0.0.html
 [es]: ./CHANGELOG.ES.md
 [pt]: ./CHANGELOG.PT.md
-[tba]: https://github.com/Mestre-Tramador/.github/compare/v1.1.1...HEAD
+[tba]: https://github.com/Mestre-Tramador/.github/compare/v1.2.0...HEAD
+[v1.2]: https://github.com/Mestre-Tramador/.github/compare/v1.1.1...v1.2.0
 [v1.1-1]: https://github.com/Mestre-Tramador/.github/compare/v1.1.0...v1.1.1
 [v1.1]: https://github.com/Mestre-Tramador/.github/compare/v1.0.0...v1.1.0
 [v1]: https://github.com/Mestre-Tramador/.github/releases/tag/v1.0.0

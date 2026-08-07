@@ -1,0 +1,15 @@
+name,color,description
+Priority: Critical,#5E0217,Issue has critical impact on breaking changes and must be implemented at once.
+Priority: High,#500A00,Issue has high impact on changes and will be implemented before reaching breaking point.
+Priority: Medium,#924100,Issue has medium impact on changes and needs to be implemented in parallel.
+Priority: Low,#0D3024,Issue has low impact on changes and can be implemented on normal schedule.
+Status: Open,#26EDE2,Issue is open and needs to be reviewed.
+Status: Working,#88B80F,Issue is being worked on.
+Status: Resolved,#F4DA38,Issue is resolved and will be released on next commit.
+Status: Abandoned,#0E022C,Issue is abandoned after being worked on due to a reason.
+Status: Delayed,#000839,Issue is delayed due to a reason.
+Status: Closed,#060907,Issue is closed and won't be worked on due to a reason.
+Type: Generic Issue,#08872B,Issue has been created with generic purpose.
+Type: Bug Report,#A22710,Issue has been created or serves as a report of a bug.
+Type: Documentation Revision,#BE7D00,Issue has been created or serves as a revision of documentation.
+Type: Feature Request,#A665F9,Issue has been created or serves as a request for a feature.

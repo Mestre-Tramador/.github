@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:appinfo>
+      Mestre-Tramador-GitHub-Labels
+    </xs:appinfo>
+
+    <xs:documentation>
+      This schema determines the rules for XML parsing of
+      the reference of the GitHub labels used by Mestre-Tramador.
+    </xs:documentation>
+  </xs:annotation>
+
+  <xs:element name="labels" type="labels">
+    <xs:annotation>
+      <xs:documentation>
+        The current list of unique labels being used.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:unique name="uniqueLabelName">
+      <xs:selector xpath="label" />
+      <xs:field xpath="@name" />
+    </xs:unique>
+  </xs:element>
+
+  <xs:complexType name="labels">
+    <xs:annotation>
+      <xs:documentation>
+        The list of labels is composed solely of labels.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:sequence>
+      <xs:element name="label" type="label" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="label">
+    <xs:annotation>
+      <xs:documentation>
+        A GitHub label is mandatorily composed of a name and a color,
+        with an additional description.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:attribute name="name" type="labelName" use="required" />
+    <xs:attribute name="color" type="labelColor" use="required" />
+    <xs:attribute name="description" type="labelDescription" use="optional" />
+  </xs:complexType>
+
+  <xs:simpleType name="labelName">
+    <xs:annotation>
+      <xs:documentation>
+        Name of the label.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:restriction base="xs:string">
+      <xs:minLength value="1" />
+      <xs:maxLength value="50" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="labelColor">
+    <xs:annotation>
+      <xs:documentation>
+        Hexadecimal code of the label color.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:restriction base="xs:string">
+      <xs:length value="7" />
+      <xs:pattern value="#[A-F0-9]+" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="labelDescription">
+    <xs:annotation>
+      <xs:documentation>
+        A helpful description of the meaning of this label.
+      </xs:documentation>
+    </xs:annotation>
+
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
+</xs:schema>

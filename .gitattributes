@@ -30,10 +30,18 @@
 #######################################################
 .github/** -linguist-vendored
 
-############################################################
-# Even if Markdown is the main language of the repository, #
-# the files located in the docs/ folder should continue    #
-# to be considered documentation and not detectable.       #
-############################################################
+###############################################################
+# Even if Markdown is the main language of the repository,    #
+# the files located in the docs/ and data/ folders should     #
+# continue to be considered documentation and not detectable. #
+###############################################################
 docs/*.md linguist-documentation -linguist-detectable
 docs/**/*.md linguist-documentation -linguist-detectable
+data/*.md linguist-documentation -linguist-detectable
+
+###################################################
+# This same logic applies for YAML files located  #
+# in the data/ folder, since they aren't any kind #
+# of GitHub related file.                         #
+###################################################
+data/**/*.yml -linguist-detectable

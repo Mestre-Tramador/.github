@@ -1,0 +1,75 @@
+##########################################################################
+#                         DOCUMENTATION REVISION                         #
+##########################################################################
+# This template provide a way to ask for revisions in the documentation, #
+# with support for multiple languages, yet, considering only the ones    #
+# provided in this repository.                                           #
+##########################################################################
+name: Documentation Revision
+description: Use this if the documentation needs revision.
+title: '[DOCS]: ...'
+labels:
+  - 'Type: Documentation Revision'
+  - 'Status: Open'
+assignees:
+  - Mestre-Tramador
+body:
+  - type: markdown
+    attributes:
+      value: "**This is a generic documentation revision, thus it might not have all available languages of the repository!**"
+  - type: dropdown
+    id: language
+    attributes:
+      label: What is the language that needs revision?
+      description: Choose the language where you found the need for revision.
+      options:
+        - English (EN)
+        - Español (ES)
+        - Português (PT)
+    validations:
+      required: true
+  - type: dropdown
+    id: revision
+    attributes:
+      label: What kind of revision is needed?
+      description: Choose the type that fits the most the revision needed.
+      options:
+        - There are misspellings in the documentation.
+        - There are missing links in the documentation.
+        - The documentation needs addition of information.
+        - The documentation lacks a page.
+        - The documentation information is incorrect or outdated.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: What is context for this revision?
+      description: >
+        Please inform the specific changes expected on the documentation, and,
+        if needed, additional information or motivation on the original language,
+        using Markdown accordingly.
+      value: |
+        Write here the context in English...
+
+        #### Original (*Translation*)
+
+        *If you choose a non-English language, please also add the original context here, or delete this subtopic.*
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Remember that each of these fields is already at **heading level 3**, so you can follow from **heading level 4** and below when writing your problem.
+
+        ---
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      description: >
+        Please make a documentation revision issue only if none equal was made,
+        or else go check the existing one.
+      options:
+        - label: I confirm to have searched all existing issues, opened and closed, and not found any equal.
+          required: true

@@ -1,0 +1,70 @@
+#:schema conf/labels.schema.json
+[[labels]]
+name="Priority: Critical"
+color="#5E0217"
+description="Issue has critical impact on breaking changes and must be implemented at once."
+
+[[labels]]
+name="Priority: High"
+color="#500A00"
+description="Issue has high impact on changes and will be implemented before reaching breaking point."
+
+[[labels]]
+name="Priority: Medium"
+color="#924100"
+description="Issue has medium impact on changes and needs to be implemented in parallel."
+
+[[labels]]
+name="Priority: Low"
+color="#0D3024"
+description="Issue has low impact on changes and can be implemented on normal schedule."
+
+[[labels]]
+name="Status: Open"
+color="#26EDE2"
+description="Issue is open and needs to be reviewed."
+
+[[labels]]
+name="Status: Working"
+color="#88B80F"
+description="Issue is being worked on."
+
+[[labels]]
+name="Status: Resolved"
+color="#F4DA38"
+description="Issue is resolved and will be released on next commit."
+
+[[labels]]
+name="Status: Abandoned"
+color="#0E022C"
+description="Issue is abandoned after being worked on due to a reason."
+
+[[labels]]
+name="Status: Delayed"
+color="#000839"
+description="Issue is delayed due to a reason."
+
+[[labels]]
+name="Status: Closed"
+color="#060907"
+description="Issue is closed and won't be worked on due to a reason."
+
+[[labels]]
+name="Type: Generic Issue"
+color="#08872B"
+description="Issue has been created with generic purpose."
+
+[[labels]]
+name="Type: Bug Report"
+color="#A22710"
+description="Issue has been created or serves as a report of a bug."
+
+[[labels]]
+name="Type: Documentation Revision"
+color="#BE7D00"
+description="Issue has been created or serves as a revision of documentation."
+
+[[labels]]
+name="Type: Feature Request"
+color="#A665F9"
+description="Issue has been created or serves as a request for a feature."

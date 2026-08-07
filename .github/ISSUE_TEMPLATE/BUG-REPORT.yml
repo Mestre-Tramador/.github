@@ -1,0 +1,92 @@
+##################################################################################
+#                                   BUG REPORT                                   #
+##################################################################################
+# This template provide a way to report bugs that might be happening on specific #
+# environments or conditions, yet still with general fields regarding them due   #
+# to the nature of the repository.                                               #
+##################################################################################
+name: Bug Report
+description: Use this if there's a bug that needs to be reported.
+title: '[FIX]: ...'
+labels:
+  - 'Type: Bug Report'
+  - 'Status: Open'
+assignees:
+  - Mestre-Tramador
+body:
+  - type: markdown
+    attributes:
+      value: "**This is a generic bug report, thus it doesn't have specific fields for most of the stacks of the environment!**"
+  - type: textarea
+    id: environment
+    attributes:
+      label: In what environment the bug occurred?
+      description: >
+        Please concisely inform all relevant versions and
+        specifications of your environment that might lead to
+        this bug, as you may also provide logs or text for the
+        used stacks. Also, try to use Markdown accordingly.
+      value: |
+        Below is the list of relevant versions:
+
+        - **Software Foo:** Version `X`
+        - **Software Bar:** Version `Y`
+        - **Software Za:** Version `Z`
+        - ...
+
+        Here is an additional log:
+
+        > ...
+
+        Write any more you'd need, or just delete what you won't.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What is exactly the behavior of this bug?
+      description: >
+        Please write down the expected and current behavior, also the caused
+        by the bug in details (the extensive the better), using Markdown
+        accordingly as well.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What are the steps required to reproduce the bug?
+      description: >
+        Please fill bellow all the steps taken to reproduce the bug
+        in the provided environment, trying to use Markdown accordingly.
+      value: |
+        To reproduce the bug, follow this steps:
+
+        1. First, ...
+        2. Then, ...
+          1. Optionally, ...
+        3. ...
+
+        #### Caveats and/or Turnovers
+
+        If there are any ramifications on the steps that can't be included on the list, write them here, or just delete this section...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Remember that each of these fields is already at **heading level 3**, so you can follow from **heading level 4** and below when writing your problem.
+
+        ---
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      description: >
+        Please make a bug report issue only if none equal was made,
+        or else go check the existing one.
+      options:
+        - label: I confirm to have searched all existing issues, opened and closed, and not found any equal.
+          required: true
+        - label: I confirm to be running a legitimate version of the repository and haven't altered it in any way.
+          required: true
+        - label: I confirm to have read the troubleshooting guide, if existing, and not found a solution.

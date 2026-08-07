@@ -1,0 +1,70 @@
+###############################################################################
+#                               FEATURE REQUEST                               #
+###############################################################################
+# This template provide a way to request for features and improvements on the #
+# repository, being also a good way to start a branch workflow, yet it lacks  #
+# specific stack fields due to the nature of the repository.                  #
+###############################################################################
+name: Feature Request
+description: Use this if you'd like to request a feature.
+title: '[FEAT]: ...'
+labels:
+  - 'Type: Feature Request'
+  - 'Status: Open'
+assignees:
+  - Mestre-Tramador
+body:
+  - type: markdown
+    attributes:
+      value: "**This is a generic feature request, thus it doesn't have specific fields for the stacks of the environment!**"
+  - type: textarea
+    id: concept
+    attributes:
+      label: What is exactly the concept of this feature?
+      description: >
+        Please write down the expected behavior for the feature in details
+        (the extensive the better), using Markdown accordingly as well.
+    validations:
+      required: true
+  - type: textarea
+    id: benefits
+    attributes:
+      label: What benefits this feature would bring?
+      description: >
+        Please fill bellow all the benefits of this feature in the
+        current environment, trying to use Markdown accordingly.
+      value: |
+        This feature would bring the following benefits:
+
+        #### Problems Solutions
+
+        Write here all solutions for problems of this feature, or delete this subtopic...
+
+        #### Optimizations
+
+        Write here all optimizations of this feature, or delete this subtopic...
+
+        #### Others
+
+        Write here any other benefit of this feature, or delete this subtopic...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Remember that each of these fields is already at **heading level 3**, so you can follow from **heading level 4** and below when writing your problem.
+
+        ---
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      description: >
+        Please make a feature issue only if none equal was made,
+        or else go check the existing one.
+      options:
+        - label: I confirm to have searched all existing issues, opened and closed, and not found any equal.
+          required: true
+        - label: I confirm that this feature does not break the content of the repository nor its license.
+          required: true
+        - label: I confirm that I want to provide collaboration and/or source for this feature to be implemented.
