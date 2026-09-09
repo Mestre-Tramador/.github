@@ -1,10 +1,10 @@
 <!-- markdownlint-disable -->
 
-<!-- ----------------------------------------------------- -->
-<!--                     LANGUAGE MENU                     -->
-<!-- ----------------------------------------------------- -->
-<!-- Choose your language and start exploring this folder! -->
-<!-- ----------------------------------------------------- -->
+<!-- --------------------------------------- -->
+<!--              LANGUAGE MENU              -->
+<!-- --------------------------------------- -->
+<!-- Choose your language to read this file! -->
+<!-- --------------------------------------- -->
 <p align="center">
   <a href="https://github.com/Mestre-Tramador/.github/blob/main/CODE_OF_CONDUCT.EN.md">
     <img
@@ -16,11 +16,11 @@
   </a>
 </p>
 
-<!-- ---------------------------------------------------- -->
-<!--                    MENÚ DE IDIOMA                    -->
-<!-- ---------------------------------------------------- -->
-<!-- ¡Elige tu idioma y comienza a explorar esta carpeta! -->
-<!-- ---------------------------------------------------- -->
+<!-- ---------------------------------------- -->
+<!--              MENÚ DE IDIOMA              -->
+<!-- ---------------------------------------- -->
+<!-- ¡Elige tu idioma para leer este archivo! -->
+<!-- ---------------------------------------- -->
 <p align="center">
   <a href="https://github.com/Mestre-Tramador/.github/blob/main/CODE_OF_CONDUCT.ES.md">
     <img
@@ -32,11 +32,11 @@
   </a>
 </p>
 
-<!-- -------------------------------------------------- -->
-<!--                   MENU DE IDIOMA                   -->
-<!-- -------------------------------------------------- -->
-<!-- Escolha seu idioma e comece a explorar esta pasta! -->
-<!-- -------------------------------------------------- -->
+<!-- ----------------------------------------- -->
+<!--               MENU DE IDIOMA              -->
+<!-- ----------------------------------------- -->
+<!-- Escolha seu idioma para ler este arquivo! -->
+<!-- ----------------------------------------- -->
 <p align="center">
   <a href="https://github.com/Mestre-Tramador/.github/blob/main/CODE_OF_CONDUCT.PT.md">
     <img

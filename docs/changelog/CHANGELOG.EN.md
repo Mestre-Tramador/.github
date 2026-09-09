@@ -12,6 +12,12 @@ adheres to [Semantic Versioning][semver].
 - GitHub Actions for Issue verifications
 - GitHub Actions for automatic releases
 
+## [1.2.1][v1.2-1] - 2026-09-09
+
+### Improved
+
+- Markdown files language menus
+
 ## [1.2.0][v1.2] - 2026-08-07
 
 ### Added
@@ -66,7 +72,8 @@ adheres to [Semantic Versioning][semver].
 [semver]: https://semver.org/spec/v2.0.0.html
 [es]: ./CHANGELOG.ES.md
 [pt]: ./CHANGELOG.PT.md
-[tba]: https://github.com/Mestre-Tramador/.github/compare/v1.2.0...HEAD
+[tba]: https://github.com/Mestre-Tramador/.github/compare/v1.2.1...HEAD
+[v1.2-1]: https://github.com/Mestre-Tramador/.github/compare/v1.2.0...v1.2.1
 [v1.2]: https://github.com/Mestre-Tramador/.github/compare/v1.1.1...v1.2.0
 [v1.1-1]: https://github.com/Mestre-Tramador/.github/compare/v1.1.0...v1.1.1
 [v1.1]: https://github.com/Mestre-Tramador/.github/compare/v1.0.0...v1.1.0
